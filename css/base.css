@@ -1,0 +1,21 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/* 取消a標籤預設會存在的底線 */
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+
+/* 取消按鈕focus的模糊藍邊 */
+
+button:focus {
+    outline: none;
+}
